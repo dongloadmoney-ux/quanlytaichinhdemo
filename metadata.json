@@ -1,0 +1,5 @@
+{
+  "name": "FinTrack - Quản lý tài chính cá nhân",
+  "description": "Ứng dụng quản lý tài chính cá nhân thông minh với báo cáo chi tiết, lưu trữ hóa đơn và quản lý người dùng.",
+  "requestFramePermissions": []
+}
