@@ -27,7 +27,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, activeTab, setActiveTa
       {/* Sidebar */}
       <aside className="w-full md:w-64 bg-white border-r border-[#E5E5E0] p-6 flex flex-col">
         <div className="mb-10">
-          <h1 className="text-3xl font-serif font-light text-[#1A1A1A]">FinTrack</h1>
+          <h1 className="text-3xl font-serif font-light text-[#1A1A1A]">Nấm's finance</h1>
         </div>
 
         <nav className="flex-1 space-y-2">

@@ -65,7 +65,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-[#F5F5F0]">
-        <div className="animate-pulse text-[#5A5A40] font-serif italic text-xl">FinTrack đang tải...</div>
+        <div className="animate-pulse text-[#5A5A40] font-serif italic text-xl">Nấm's finance đang tải...</div>
       </div>
     );
   }
@@ -74,7 +74,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#F5F5F0] p-6">
         <div className="max-w-md w-full bg-white rounded-[32px] p-10 shadow-sm border border-[#E5E5E0] text-center">
-          <h1 className="text-5xl font-serif font-light text-[#1A1A1A] mb-4">FinTrack</h1>
+          <h1 className="text-5xl font-serif font-light text-[#1A1A1A] mb-4">Nấm's finance</h1>
           <p className="text-[#5A5A40] italic mb-10">Quản lý tài chính cá nhân một cách tinh tế.</p>
           <button
             onClick={login}
